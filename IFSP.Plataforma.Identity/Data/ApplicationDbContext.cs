@@ -19,7 +19,7 @@ namespace IFSP.Plataforma.Identity.Data
         {
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
             optionsBuilder.UseNpgsql(
-                    new Configuration().GetConnectionString("DefaultConnection")); 
+                    new Configuration().GetConnectionString("DefaultConnection"));
 
             return new ApplicationDbContext(optionsBuilder.Options);
         }
