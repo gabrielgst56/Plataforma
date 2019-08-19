@@ -1,0 +1,15 @@
+C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Api\bin\Debug\netcoreapp2.1\IFSP.Plataforma.Api.deps.json
+C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Api\bin\Debug\netcoreapp2.1\IFSP.Plataforma.Api.runtimeconfig.json
+C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Api\bin\Debug\netcoreapp2.1\IFSP.Plataforma.Api.runtimeconfig.dev.json
+C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Api\bin\Debug\netcoreapp2.1\IFSP.Plataforma.Api.dll
+C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Api\bin\Debug\netcoreapp2.1\IFSP.Plataforma.Api.pdb
+C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.csprojAssemblyReference.cache
+C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.RazorAssemblyInfo.cache
+C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.RazorAssemblyInfo.cs
+C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.AssemblyInfo.cs
+C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.dll
+C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.pdb
