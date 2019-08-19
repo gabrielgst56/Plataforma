@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\GitHub\\Platform\\Plataforma\\IFSP.Plataforma.Application\\IFSP.Plataforma.Application.csproj",
+      "projectUniqueName": "C:\\Projects\\Plataforma\\IFSP.Plataforma.Application\\IFSP.Plataforma.Application.csproj",
       "projectName": "IFSP.Plataforma.Application",
-      "projectPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\Platform\\Plataforma\\IFSP.Plataforma.Application\\IFSP.Plataforma.Application.csproj",
+      "projectPath": "C:\\Projects\\Plataforma\\IFSP.Plataforma.Application\\IFSP.Plataforma.Application.csproj",
       "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\Platform\\Plataforma\\IFSP.Plataforma.Application\\obj\\",
+      "outputPath": "C:\\Projects\\Plataforma\\IFSP.Plataforma.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

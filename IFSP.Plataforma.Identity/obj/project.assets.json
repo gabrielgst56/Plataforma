@@ -12008,11 +12008,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\GitHub\\Platform\\Plataforma\\IFSP.Plataforma.Identity\\IFSP.Plataforma.Identity.csproj",
+      "projectUniqueName": "C:\\Projects\\Plataforma\\IFSP.Plataforma.Identity\\IFSP.Plataforma.Identity.csproj",
       "projectName": "IFSP.Plataforma.Identity",
-      "projectPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\Platform\\Plataforma\\IFSP.Plataforma.Identity\\IFSP.Plataforma.Identity.csproj",
+      "projectPath": "C:\\Projects\\Plataforma\\IFSP.Plataforma.Identity\\IFSP.Plataforma.Identity.csproj",
       "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\Platform\\Plataforma\\IFSP.Plataforma.Identity\\obj\\",
+      "outputPath": "C:\\Projects\\Plataforma\\IFSP.Plataforma.Identity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

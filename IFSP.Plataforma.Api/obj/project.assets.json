@@ -11886,11 +11886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\GitHub\\Platform\\Plataforma\\IFSP.Plataforma.Api\\IFSP.Plataforma.Api.csproj",
+      "projectUniqueName": "C:\\Projects\\Plataforma\\IFSP.Plataforma.Api\\IFSP.Plataforma.Api.csproj",
       "projectName": "IFSP.Plataforma.Api",
-      "projectPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\Platform\\Plataforma\\IFSP.Plataforma.Api\\IFSP.Plataforma.Api.csproj",
+      "projectPath": "C:\\Projects\\Plataforma\\IFSP.Plataforma.Api\\IFSP.Plataforma.Api.csproj",
       "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\Platform\\Plataforma\\IFSP.Plataforma.Api\\obj\\",
+      "outputPath": "C:\\Projects\\Plataforma\\IFSP.Plataforma.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11954,7 +11954,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Versão detectada do pacote fora da restrição de dependência: Microsoft.AspNetCore.App 2.1.0 requer Microsoft.AspNetCore.Razor.Design (= 2.1.0), mas a versão Microsoft.AspNetCore.Razor.Design 2.1.2 foi resolvida.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.0 requires Microsoft.AspNetCore.Razor.Design (= 2.1.0) but version Microsoft.AspNetCore.Razor.Design 2.1.2 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Razor.Design",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"

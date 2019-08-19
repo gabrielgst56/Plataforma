@@ -33,3 +33,12 @@ C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Identity\o
 C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Identity\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Identity.dll
 C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Identity\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Identity.pdb
 C:\Users\Gabriel\Documents\GitHub\Platform\Plataforma\IFSP.Plataforma.Identity\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Identity.csproj.CopyComplete
+C:\Projects\Plataforma\IFSP.Plataforma.Identity\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Identity.csprojAssemblyReference.cache
+C:\Projects\Plataforma\IFSP.Plataforma.Identity\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Identity.csproj.CoreCompileInputs.cache
+C:\Projects\Plataforma\IFSP.Plataforma.Identity\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Identity.RazorAssemblyInfo.cache
+C:\Projects\Plataforma\IFSP.Plataforma.Identity\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Identity.RazorAssemblyInfo.cs
+C:\Projects\Plataforma\IFSP.Plataforma.Identity\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Projects\Plataforma\IFSP.Plataforma.Identity\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Identity.AssemblyInfoInputs.cache
+C:\Projects\Plataforma\IFSP.Plataforma.Identity\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Identity.AssemblyInfo.cs
+C:\Projects\Plataforma\IFSP.Plataforma.Identity\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Identity.dll
+C:\Projects\Plataforma\IFSP.Plataforma.Identity\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Identity.pdb
