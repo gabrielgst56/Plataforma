@@ -16,3 +16,12 @@ C:\Projects\Plataforma\IFSP.Plataforma.Application\obj\Debug\netcoreapp2.1\IFSP.
 C:\Projects\Plataforma\IFSP.Plataforma.Application\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Application.AssemblyInfo.cs
 C:\Projects\Plataforma\IFSP.Plataforma.Application\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Application.dll
 C:\Projects\Plataforma\IFSP.Plataforma.Application\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Application.pdb
+C:\Users\gabriel.silva\Documents\GitHub\Plataforma\IFSP.Plataforma.Application\bin\Debug\netcoreapp2.1\IFSP.Plataforma.Application.deps.json
+C:\Users\gabriel.silva\Documents\GitHub\Plataforma\IFSP.Plataforma.Application\bin\Debug\netcoreapp2.1\IFSP.Plataforma.Application.dll
+C:\Users\gabriel.silva\Documents\GitHub\Plataforma\IFSP.Plataforma.Application\bin\Debug\netcoreapp2.1\IFSP.Plataforma.Application.pdb
+C:\Users\gabriel.silva\Documents\GitHub\Plataforma\IFSP.Plataforma.Application\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Application.csprojAssemblyReference.cache
+C:\Users\gabriel.silva\Documents\GitHub\Plataforma\IFSP.Plataforma.Application\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Application.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.silva\Documents\GitHub\Plataforma\IFSP.Plataforma.Application\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Application.AssemblyInfoInputs.cache
+C:\Users\gabriel.silva\Documents\GitHub\Plataforma\IFSP.Plataforma.Application\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Application.AssemblyInfo.cs
+C:\Users\gabriel.silva\Documents\GitHub\Plataforma\IFSP.Plataforma.Application\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Application.dll
+C:\Users\gabriel.silva\Documents\GitHub\Plataforma\IFSP.Plataforma.Application\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Application.pdb

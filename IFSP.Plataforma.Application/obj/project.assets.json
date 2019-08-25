@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gabriel\\.nuget\\packages\\": {},
+    "C:\\Users\\gabriel.silva\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Plataforma\\IFSP.Plataforma.Application\\IFSP.Plataforma.Application.csproj",
+      "projectUniqueName": "C:\\Users\\gabriel.silva\\Documents\\GitHub\\Plataforma\\IFSP.Plataforma.Application\\IFSP.Plataforma.Application.csproj",
       "projectName": "IFSP.Plataforma.Application",
-      "projectPath": "C:\\Projects\\Plataforma\\IFSP.Plataforma.Application\\IFSP.Plataforma.Application.csproj",
-      "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Plataforma\\IFSP.Plataforma.Application\\obj\\",
+      "projectPath": "C:\\Users\\gabriel.silva\\Documents\\GitHub\\Plataforma\\IFSP.Plataforma.Application\\IFSP.Plataforma.Application.csproj",
+      "packagesPath": "C:\\Users\\gabriel.silva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabriel.silva\\Documents\\GitHub\\Plataforma\\IFSP.Plataforma.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabriel.silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
