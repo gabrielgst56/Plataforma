@@ -4,6 +4,7 @@ using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using IFSP.Plataforma.Application.Interfaces;
 using IFSP.Plataforma.Application.ViewModels;
+using IFSP.Plataforma.Domain.Commands.User;
 using IFSP.Plataforma.Domain.Core.Bus;
 using IFSP.Plataforma.Domain.Interfaces;
 
@@ -36,7 +37,7 @@ namespace IFSP.Plataforma.Application.Services
 
         public void Register(UserViewModel userViewModel)
         {
-            var registerCommand = _mapper.Map<RegisterNewUserCommand>(userViewModel);
+            var registerCommand = _mapper.Map<AddUserCommand>(userViewModel);
             Bus.SendCommand(registerCommand);
         }
 
