@@ -5,9 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
-    <Folder Include="Validators\" />
-    <Folder Include="IRepositories\" />
+    <Compile Remove="IRepositories\**" />
+    <Compile Remove="Validators\**" />
+    <EmbeddedResource Remove="IRepositories\**" />
+    <EmbeddedResource Remove="Validators\**" />
+    <None Remove="IRepositories\**" />
+    <None Remove="Validators\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IFSP.Plataforma.Domain.Core\IFSP.Plataforma.Domain.Core.csproj" />
   </ItemGroup>
 
 </Project>

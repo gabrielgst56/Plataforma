@@ -22,7 +22,6 @@ C:\Projects\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Platafor
 C:\Projects\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.csproj.CoreCompileInputs.cache
 C:\Projects\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.RazorAssemblyInfo.cache
 C:\Projects\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.RazorAssemblyInfo.cs
-C:\Projects\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 C:\Projects\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.AssemblyInfoInputs.cache
 C:\Projects\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.AssemblyInfo.cs
 C:\Projects\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.RazorTargetAssemblyInfo.cache
@@ -43,3 +42,4 @@ C:\Users\gabriel.silva\Documents\GitHub\Plataforma\IFSP.Plataforma.Api\obj\Debug
 C:\Users\gabriel.silva\Documents\GitHub\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.RazorTargetAssemblyInfo.cache
 C:\Users\gabriel.silva\Documents\GitHub\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.dll
 C:\Users\gabriel.silva\Documents\GitHub\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\IFSP.Plataforma.Api.pdb
+C:\Projects\Plataforma\IFSP.Plataforma.Api\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

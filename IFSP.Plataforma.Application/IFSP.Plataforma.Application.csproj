@@ -5,8 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IFSP.Plataforma.Domain.Core\IFSP.Plataforma.Domain.Core.csproj" />
+    <ProjectReference Include="..\IFSP.Plataforma.Domain\IFSP.Plataforma.Domain.csproj" />
   </ItemGroup>
 
 </Project>
