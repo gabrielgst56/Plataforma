@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using IFSP.Plataforma.Domain.Validations.User;
+using System;
 
 namespace IFSP.Plataforma.Domain.Commands.User
 {

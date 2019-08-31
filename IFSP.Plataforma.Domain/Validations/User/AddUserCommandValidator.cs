@@ -8,7 +8,6 @@ namespace IFSP.Plataforma.Domain.Validations.User
         public AddUserCommandValidator()
         {
             ValidateName();
-            ValidateBirthDate();
             ValidatePassword();
             ValidateEmail();
         }

@@ -16,10 +16,16 @@ namespace IFSP.Plataforma.Infra.Data.Context
         }
 
         public DbSet<User> Users { get; set; }
+        
+        public DbSet<Chatbot> Chatbots { get; set; }
+
+        public DbSet<Dialogue> Dialogues { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new UserMap());
+            modelBuilder.ApplyConfiguration(new ChatbotMap());
+            modelBuilder.ApplyConfiguration(new DialogueMap());
 
             base.OnModelCreating(modelBuilder);
         }

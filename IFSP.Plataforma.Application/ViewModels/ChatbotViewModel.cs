@@ -20,11 +20,11 @@ namespace IFSP.Plataforma.Application.ViewModels
         [DisplayName("Description")]
         public string Description { get; set; }
 
-        [DisplayName("Is Discord Exported")]
         public bool DiscordExported { get; set; }
 
-        [DisplayName("Is Messenger Exported")]
         public bool MessengerExported { get; set; }
+
+        public string DiscordBotSecret { get; set; }        
 
         [DisplayName("Chatbot Dialogue")]
         public List<DialogueViewModel> Dialogues { get; set; }

@@ -9,75 +9,74 @@ using System;
 
 namespace IFSP.Plataforma.Api.Controllers
 {
-    public class UserController : ApiController
+    public class ChatbotController : ApiController
     {
-        private readonly IUserAppService _userAppService;
+        private readonly IChatbotAppService _chatbotAppService;
 
-        public UserController(
-            IUserAppService userAppService,
+        public ChatbotController(
+            IChatbotAppService chatbotAppService,
             INotificationHandler<DomainNotification> notifications,
             IMediatorHandler mediator) : base(notifications, mediator)
         {
-            _userAppService = userAppService;
+            _chatbotAppService = chatbotAppService;
         }
-
 
         [HttpGet]
         [AllowAnonymous]
-        [Route("user")]
+        [Route("chatbot")]
         public IActionResult Get()
         {
-            return Response(_userAppService.GetAll());
+            return Response(_chatbotAppService.GetAll());
         }
 
         [HttpGet]
         [AllowAnonymous]
-        [Route("user/{id:guid}")]
+        [Route("chatbot/{id:guid}")]
         public IActionResult Get(Guid id)
         {
-            var userViewModel = _userAppService.GetById(id);
+            var chatbotViewModel = _chatbotAppService.GetById(id);
 
-            return Response(userViewModel);
+            return Response(chatbotViewModel);
         }
 
         [HttpPost]
         [AllowAnonymous]
-        [Route("user")]
-        public IActionResult Post([FromBody]UserViewModel userViewModel)
+        [Route("chatbot")]
+        public IActionResult Post([FromBody]ChatbotViewModel chatbotViewModel)
         {
             if (!ModelState.IsValid)
             {
                 NotifyModelStateErrors();
-                return Response(userViewModel);
+                return Response(chatbotViewModel);
             }
 
-            _userAppService.Register(userViewModel);
+            _chatbotAppService.Register(chatbotViewModel);
 
-            return Response(userViewModel);
+            return Response(chatbotViewModel);
         }
 
         [HttpPut]
         [AllowAnonymous]
-        [Route("user")]
-        public IActionResult Put([FromBody]UserViewModel userViewModel)
+        [Route("chatbot")]
+        public IActionResult Put([FromBody]ChatbotViewModel chatbotViewModel)
         {
             if (!ModelState.IsValid)
             {
                 NotifyModelStateErrors();
-                return Response(userViewModel);
+                return Response(chatbotViewModel);
             }
 
-            _userAppService.Update(userViewModel);
+            _chatbotAppService.Update(chatbotViewModel);
 
-            return Response(userViewModel);
+            return Response(chatbotViewModel);
         }
 
         [HttpDelete]
         [AllowAnonymous]
-        [Route("user")]
+        [Route("chatbot")]
         public IActionResult Delete(Guid id)
         {
-            _userAppService.Remove(id);
+            _chatbotAppService.Remove(id);
 
             return Response();
         }
