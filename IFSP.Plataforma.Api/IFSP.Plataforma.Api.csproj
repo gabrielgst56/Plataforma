@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     <UserSecretsId>5afbcd78-537b-4608-ab2c-8e0d57cd15e1</UserSecretsId>
   </PropertyGroup>
@@ -14,8 +14,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.4.10" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
   </ItemGroup>
@@ -24,6 +26,8 @@
     <ProjectReference Include="..\IFSP.Plataforma.Application\IFSP.Plataforma.Application.csproj" />
     <ProjectReference Include="..\IFSP.Plataforma.Domain.Core\IFSP.Plataforma.Domain.Core.csproj" />
     <ProjectReference Include="..\IFSP.Plataforma.Domain\IFSP.Plataforma.Domain.csproj" />
+    <ProjectReference Include="..\IFSP.Plataforma.Infra.CrossCutting.IoC\IFSP.Plataforma.Infra.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\IFSP.Plataforma.Infra.Data\IFSP.Plataforma.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>

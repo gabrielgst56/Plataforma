@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IFSP.Plataforma.Application\IFSP.Plataforma.Application.csproj" />
+    <ProjectReference Include="..\IFSP.Plataforma.Domain.Core\IFSP.Plataforma.Domain.Core.csproj" />
+    <ProjectReference Include="..\IFSP.Plataforma.Infra.CrossCutting.Bus\IFSP.Plataforma.Infra.CrossCutting.Bus.csproj" />
+    <ProjectReference Include="..\IFSP.Plataforma.Infra.Data\IFSP.Plataforma.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

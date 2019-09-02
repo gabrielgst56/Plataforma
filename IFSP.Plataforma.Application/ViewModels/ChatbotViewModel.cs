@@ -16,7 +16,8 @@ namespace IFSP.Plataforma.Application.ViewModels
         [MaxLength(20)]
         [DisplayName("Name")]
         public string Name { get; set; }
-
+        
+        [MaxLength(200)]
         [DisplayName("Description")]
         public string Description { get; set; }
 

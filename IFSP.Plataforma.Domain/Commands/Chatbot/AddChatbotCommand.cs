@@ -8,10 +8,9 @@ namespace IFSP.Plataforma.Domain.Commands.Chatbot
 {
     public class AddChatbotCommand : ChatbotCommand
     {
-        public AddChatbotCommand(Guid id, string name, string description, bool discordExported, bool messengerExported
+        public AddChatbotCommand(string name, string description, bool discordExported, bool messengerExported
             , string discordBotSecret, List<Dialogue> dialogues, IFSP.Plataforma.Domain.Entities.User user, DateTime createdDate)
         {
-            Id = id;
             Name = name;
             Description = description;
             DiscordExported = discordExported;

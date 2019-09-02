@@ -9,6 +9,7 @@ using System;
 
 namespace IFSP.Plataforma.Api.Controllers
 {
+    [Route("api/[controller]")]
     public class ChatbotController : ApiController
     {
         private readonly IChatbotAppService _chatbotAppService;
@@ -22,15 +23,12 @@ namespace IFSP.Plataforma.Api.Controllers
         }
 
         [HttpGet]
-        [AllowAnonymous]
-        [Route("chatbot")]
         public IActionResult Get()
         {
             return Response(_chatbotAppService.GetAll());
         }
 
         [HttpGet]
-        [AllowAnonymous]
         [Route("chatbot/{id:guid}")]
         public IActionResult Get(Guid id)
         {
