@@ -30,9 +30,8 @@ namespace IFSP.Plataforma.Api.Controllers
             return Response(_userAppService.GetAll());
         }
 
-        [HttpGet]
+        [HttpGet("{id}")]
         [AllowAnonymous]
-        [Route("/{id:guid}")]
         public IActionResult Get(Guid id)
         {
             var userViewModel = _userAppService.GetById(id);
@@ -50,7 +49,7 @@ namespace IFSP.Plataforma.Api.Controllers
                 return Response(userViewModel);
             }
 
-            _userAppService.Register(userViewModel);
+            _userAppService.Add(userViewModel);
 
             return Response(userViewModel);
         }
@@ -70,7 +69,7 @@ namespace IFSP.Plataforma.Api.Controllers
             return Response(userViewModel);
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         [AllowAnonymous]
         public IActionResult Delete(Guid id)
         {

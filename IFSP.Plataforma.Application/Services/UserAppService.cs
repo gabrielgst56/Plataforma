@@ -35,10 +35,10 @@ namespace IFSP.Plataforma.Application.Services
             return _mapper.Map<UserViewModel>(_userRepository.GetById(id));
         }
 
-        public void Register(UserViewModel userViewModel)
+        public void Add(UserViewModel userViewModel)
         {
-            var registerCommand = _mapper.Map<AddUserCommand>(userViewModel);
-            Bus.SendCommand(registerCommand);
+            var addUserCommand = _mapper.Map<AddUserCommand>(userViewModel);
+            Bus.SendCommand(addUserCommand);
         }
 
         public void Update(UserViewModel userViewModel)

@@ -15,11 +15,11 @@ namespace IFSP.Plataforma.Infra.Data.Context
             _env = env;
         }
 
-        public DbSet<User> Users { get; set; }
+        public DbSet<User> User { get; set; }
         
-        public DbSet<Chatbot> Chatbots { get; set; }
+        public DbSet<Chatbot> Chatbot { get; set; }
 
-        public DbSet<Dialogue> Dialogues { get; set; }
+        public DbSet<Dialogue> Dialogue { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

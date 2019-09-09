@@ -36,7 +36,7 @@ namespace IFSP.Plataforma.Domain.CommandHandler
                 return Task.FromResult(false);
             }
 
-            var user = new User(Guid.NewGuid(), message.Name, message.Email, message.BirthDate);
+            var user = new User(Guid.NewGuid(), message.Name, message.Password, message.Email, message.BirthDate);
 
             if (_userRepository.GetByEmail(user.Email) != null)
             {
@@ -62,7 +62,7 @@ namespace IFSP.Plataforma.Domain.CommandHandler
                 return Task.FromResult(false);
             }
 
-            var user = new User(message.Id, message.Name, message.Email, message.BirthDate);
+            var user = new User(message.Id, message.Name, message.Password, message.Email, message.BirthDate);
             var existingUser = _userRepository.GetByEmail(user.Email);
 
             if (existingUser != null && existingUser.Id != user.Id)

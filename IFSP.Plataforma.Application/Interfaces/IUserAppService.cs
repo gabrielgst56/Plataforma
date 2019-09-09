@@ -6,7 +6,7 @@ namespace IFSP.Plataforma.Application.Interfaces
 {
     public interface IUserAppService : IDisposable
     {
-        void Register(UserViewModel userViewModel);
+        void Add(UserViewModel userViewModel);
         IEnumerable<UserViewModel> GetAll();
         UserViewModel GetById(Guid id);
         void Update(UserViewModel userViewModel);
