@@ -29,7 +29,7 @@ namespace IFSP.Plataforma.Api.Controllers
         }
 
         [HttpGet]
-        [Route("chatbot/{id:guid}")]
+        [Route("/{id:guid}")]
         public IActionResult Get(Guid id)
         {
             var chatbotViewModel = _chatbotAppService.GetById(id);
@@ -39,7 +39,6 @@ namespace IFSP.Plataforma.Api.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        [Route("chatbot")]
         public IActionResult Post([FromBody]ChatbotViewModel chatbotViewModel)
         {
             if (!ModelState.IsValid)
@@ -55,7 +54,6 @@ namespace IFSP.Plataforma.Api.Controllers
 
         [HttpPut]
         [AllowAnonymous]
-        [Route("chatbot")]
         public IActionResult Put([FromBody]ChatbotViewModel chatbotViewModel)
         {
             if (!ModelState.IsValid)
@@ -71,7 +69,6 @@ namespace IFSP.Plataforma.Api.Controllers
 
         [HttpDelete]
         [AllowAnonymous]
-        [Route("chatbot")]
         public IActionResult Delete(Guid id)
         {
             _chatbotAppService.Remove(id);

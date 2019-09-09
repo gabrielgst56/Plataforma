@@ -21,9 +21,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Infra.Data"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Domain.Core", "IFSP.Plataforma.Domain.Core\IFSP.Plataforma.Domain.Core.csproj", "{673E5033-A3CC-40C3-9EF9-10DED89720FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFSP.Plataforma.Infra.CrossCutting.IoC", "IFSP.Plataforma.Infra.CrossCutting.IoC\IFSP.Plataforma.Infra.CrossCutting.IoC.csproj", "{A13542C6-53B2-4A48-8430-E6A448F1E83E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Infra.CrossCutting.IoC", "IFSP.Plataforma.Infra.CrossCutting.IoC\IFSP.Plataforma.Infra.CrossCutting.IoC.csproj", "{A13542C6-53B2-4A48-8430-E6A448F1E83E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFSP.Plataforma.Infra.CrossCutting.Bus", "IFSP.Plataforma.Infra.CrossCutting.Bus\IFSP.Plataforma.Infra.CrossCutting.Bus.csproj", "{7865CE7D-7414-4B08-A500-3E72D391B083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Infra.CrossCutting.Bus", "IFSP.Plataforma.Infra.CrossCutting.Bus\IFSP.Plataforma.Infra.CrossCutting.Bus.csproj", "{7865CE7D-7414-4B08-A500-3E72D391B083}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{66DB89A6-E86D-4147-9A9A-00846E4A61FB}"
+	ProjectSection(SolutionItems) = preProject
+		Create tables.sql = Create tables.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -78,6 +83,7 @@ Global
 		{673E5033-A3CC-40C3-9EF9-10DED89720FD} = {6B8A5F94-D466-4052-8DBD-6B8A3A33BE69}
 		{A13542C6-53B2-4A48-8430-E6A448F1E83E} = {6B8A5F94-D466-4052-8DBD-6B8A3A33BE69}
 		{7865CE7D-7414-4B08-A500-3E72D391B083} = {6B8A5F94-D466-4052-8DBD-6B8A3A33BE69}
+		{66DB89A6-E86D-4147-9A9A-00846E4A61FB} = {4645777A-9CA3-4ED3-A29C-8C3B7FBCF362}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E616F88B-BC3E-4B66-A91B-E49AB0A2F566}

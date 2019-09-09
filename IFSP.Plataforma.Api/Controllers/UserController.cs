@@ -9,6 +9,7 @@ using System;
 
 namespace IFSP.Plataforma.Api.Controllers
 {
+    [Route("api/[controller]")]
     public class UserController : ApiController
     {
         private readonly IUserAppService _userAppService;
@@ -24,7 +25,6 @@ namespace IFSP.Plataforma.Api.Controllers
 
         [HttpGet]
         [AllowAnonymous]
-        [Route("user")]
         public IActionResult Get()
         {
             return Response(_userAppService.GetAll());
@@ -32,7 +32,7 @@ namespace IFSP.Plataforma.Api.Controllers
 
         [HttpGet]
         [AllowAnonymous]
-        [Route("user/{id:guid}")]
+        [Route("/{id:guid}")]
         public IActionResult Get(Guid id)
         {
             var userViewModel = _userAppService.GetById(id);
@@ -42,7 +42,6 @@ namespace IFSP.Plataforma.Api.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        [Route("user")]
         public IActionResult Post([FromBody]UserViewModel userViewModel)
         {
             if (!ModelState.IsValid)
@@ -58,7 +57,6 @@ namespace IFSP.Plataforma.Api.Controllers
 
         [HttpPut]
         [AllowAnonymous]
-        [Route("user")]
         public IActionResult Put([FromBody]UserViewModel userViewModel)
         {
             if (!ModelState.IsValid)
@@ -74,7 +72,6 @@ namespace IFSP.Plataforma.Api.Controllers
 
         [HttpDelete]
         [AllowAnonymous]
-        [Route("user")]
         public IActionResult Delete(Guid id)
         {
             _userAppService.Remove(id);
