@@ -35,10 +35,10 @@ namespace IFSP.Plataforma.Application.Services
             return _mapper.Map<ChatbotViewModel>(_chatbotRepository.GetById(id));
         }
 
-        public void Register(ChatbotViewModel chatbotViewModel)
+        public void Add(ChatbotViewModel chatbotViewModel)
         {
-            var registerCommand = _mapper.Map<AddChatbotCommand>(chatbotViewModel);
-            Bus.SendCommand(registerCommand);
+            var addCommand = _mapper.Map<AddChatbotCommand>(chatbotViewModel);
+            Bus.SendCommand(addCommand);
         }
 
         public void Update(ChatbotViewModel chatbotViewModel)

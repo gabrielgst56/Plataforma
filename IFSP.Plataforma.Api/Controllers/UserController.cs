@@ -30,8 +30,9 @@ namespace IFSP.Plataforma.Api.Controllers
             return Response(_userAppService.GetAll());
         }
 
-        [HttpGet("{id}")]
+        [HttpGet]
         [AllowAnonymous]
+        [Route("/{id:guid}")]
         public IActionResult Get(Guid id)
         {
             var userViewModel = _userAppService.GetById(id);
