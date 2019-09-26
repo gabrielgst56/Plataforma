@@ -7,23 +7,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plataforma", "Plataforma", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Containers", "Containers", "{1FC045B6-8F92-4F40-85BD-13F35581BBC7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Api", "IFSP.Plataforma.Api\IFSP.Plataforma.Api.csproj", "{37203990-99E0-473C-B064-9FEC0B17DF6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Api", "Containers\IFSP.Plataforma.Api\IFSP.Plataforma.Api.csproj", "{37203990-99E0-473C-B064-9FEC0B17DF6B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{6B8A5F94-D466-4052-8DBD-6B8A3A33BE69}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Application", "IFSP.Plataforma.Application\IFSP.Plataforma.Application.csproj", "{8B4432E7-374B-4B7A-BE28-4121A6E14737}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Application", "Dotnet-packages\IFSP.Plataforma.Application\IFSP.Plataforma.Application.csproj", "{8B4432E7-374B-4B7A-BE28-4121A6E14737}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Domain", "IFSP.Plataforma.Domain\IFSP.Plataforma.Domain.csproj", "{71AA116F-3B50-4BEA-8955-D5D73F6DCEE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Domain", "Dotnet-packages\IFSP.Plataforma.Domain\IFSP.Plataforma.Domain.csproj", "{71AA116F-3B50-4BEA-8955-D5D73F6DCEE2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Enums", "IFSP.Plataforma.Enums\IFSP.Plataforma.Enums.csproj", "{B0BC3931-BD6E-455F-8AAB-1B40087902A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Enums", "Dotnet-packages\IFSP.Plataforma.Enums\IFSP.Plataforma.Enums.csproj", "{B0BC3931-BD6E-455F-8AAB-1B40087902A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Infra.Data", "IFSP.Plataforma.Infra.Data\IFSP.Plataforma.Infra.Data.csproj", "{2CA19F93-7BF2-49E0-B306-172D70FA93CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Infra.Data", "Dotnet-packages\IFSP.Plataforma.Infra.Data\IFSP.Plataforma.Infra.Data.csproj", "{2CA19F93-7BF2-49E0-B306-172D70FA93CB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Domain.Core", "IFSP.Plataforma.Domain.Core\IFSP.Plataforma.Domain.Core.csproj", "{673E5033-A3CC-40C3-9EF9-10DED89720FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Domain.Core", "Dotnet-packages\IFSP.Plataforma.Domain.Core\IFSP.Plataforma.Domain.Core.csproj", "{673E5033-A3CC-40C3-9EF9-10DED89720FD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Infra.CrossCutting.IoC", "IFSP.Plataforma.Infra.CrossCutting.IoC\IFSP.Plataforma.Infra.CrossCutting.IoC.csproj", "{A13542C6-53B2-4A48-8430-E6A448F1E83E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Infra.CrossCutting.IoC", "Dotnet-packages\IFSP.Plataforma.Infra.CrossCutting.IoC\IFSP.Plataforma.Infra.CrossCutting.IoC.csproj", "{A13542C6-53B2-4A48-8430-E6A448F1E83E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Infra.CrossCutting.Bus", "IFSP.Plataforma.Infra.CrossCutting.Bus\IFSP.Plataforma.Infra.CrossCutting.Bus.csproj", "{7865CE7D-7414-4B08-A500-3E72D391B083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFSP.Plataforma.Infra.CrossCutting.Bus", "Dotnet-packages\IFSP.Plataforma.Infra.CrossCutting.Bus\IFSP.Plataforma.Infra.CrossCutting.Bus.csproj", "{7865CE7D-7414-4B08-A500-3E72D391B083}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{66DB89A6-E86D-4147-9A9A-00846E4A61FB}"
 	ProjectSection(SolutionItems) = preProject

@@ -23,11 +23,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IFSP.Plataforma.Application\IFSP.Plataforma.Application.csproj" />
-    <ProjectReference Include="..\IFSP.Plataforma.Domain.Core\IFSP.Plataforma.Domain.Core.csproj" />
-    <ProjectReference Include="..\IFSP.Plataforma.Domain\IFSP.Plataforma.Domain.csproj" />
-    <ProjectReference Include="..\IFSP.Plataforma.Infra.CrossCutting.IoC\IFSP.Plataforma.Infra.CrossCutting.IoC.csproj" />
-    <ProjectReference Include="..\IFSP.Plataforma.Infra.Data\IFSP.Plataforma.Infra.Data.csproj" />
+    <ProjectReference Include="..\Dotnet-packages\IFSP.Plataforma.Application\IFSP.Plataforma.Application.csproj" />
+    <ProjectReference Include="..\Dotnet-packages\IFSP.Plataforma.Domain.Core\IFSP.Plataforma.Domain.Core.csproj" />
+    <ProjectReference Include="..\Dotnet-packages\IFSP.Plataforma.Domain\IFSP.Plataforma.Domain.csproj" />
+    <ProjectReference Include="..\Dotnet-packages\IFSP.Plataforma.Infra.CrossCutting.IoC\IFSP.Plataforma.Infra.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\Dotnet-packages\IFSP.Plataforma.Infra.Data\IFSP.Plataforma.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>
