@@ -8,19 +8,26 @@ namespace IFSP.Plataforma.Infra.Data.Mappings
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
-            builder.Property(x => x.Id);
+            builder.Property(x => x.Id)
+                .HasColumnName("id");
 
             builder.Property(x => x.Name)
+                .HasColumnName("name")
                 .HasMaxLength(100)
                 .IsRequired();
 
             builder.Property(x => x.Email)
+                .HasColumnName("email")
                 .HasMaxLength(100)
                 .IsRequired();
 
             builder.Property(x => x.Password)
+                .HasColumnName("password")
                 .HasMaxLength(16)
                 .IsRequired();
+
+            builder.Property(x => x.BirthDate)
+                .HasColumnName("birthdate");
         }
     }
 }

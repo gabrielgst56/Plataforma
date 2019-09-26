@@ -47,7 +47,7 @@ namespace IFSP.Plataforma.Api.Controllers
                 return Response(chatbotViewModel);
             }
 
-            _chatbotAppService.Register(chatbotViewModel);
+            _chatbotAppService.Add(chatbotViewModel);
 
             return Response(chatbotViewModel);
         }
@@ -67,7 +67,7 @@ namespace IFSP.Plataforma.Api.Controllers
             return Response(chatbotViewModel);
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         [AllowAnonymous]
         public IActionResult Delete(Guid id)
         {

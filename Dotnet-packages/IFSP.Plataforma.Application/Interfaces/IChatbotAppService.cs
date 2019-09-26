@@ -6,7 +6,7 @@ namespace IFSP.Plataforma.Application.Interfaces
 {
     public interface IChatbotAppService : IDisposable
     {
-        void Register(ChatbotViewModel chatbotViewModel);
+        void Add(ChatbotViewModel chatbotViewModel);
         IEnumerable<ChatbotViewModel> GetAll();
         ChatbotViewModel GetById(Guid id);
         void Update(ChatbotViewModel chatbotViewModel);

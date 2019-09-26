@@ -5,10 +5,11 @@ namespace IFSP.Plataforma.Domain.Entities
 {
     public class User : Entity
     {
-        public User(Guid id, string name, string email, DateTime birthDate)
+        public User(Guid id, string name, string password, string email, DateTime birthDate)
         {
             Id = id;
             Name = name;
+            Password = password;
             Email = email;
             BirthDate = birthDate;
         }

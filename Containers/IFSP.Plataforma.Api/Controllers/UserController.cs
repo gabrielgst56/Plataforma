@@ -50,7 +50,7 @@ namespace IFSP.Plataforma.Api.Controllers
                 return Response(userViewModel);
             }
 
-            _userAppService.Register(userViewModel);
+            _userAppService.Add(userViewModel);
 
             return Response(userViewModel);
         }
@@ -70,7 +70,7 @@ namespace IFSP.Plataforma.Api.Controllers
             return Response(userViewModel);
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         [AllowAnonymous]
         public IActionResult Delete(Guid id)
         {
