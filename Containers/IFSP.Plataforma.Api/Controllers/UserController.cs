@@ -78,5 +78,14 @@ namespace IFSP.Plataforma.Api.Controllers
 
             return Response();
         }
+
+        [HttpPost("login")]
+        [AllowAnonymous]
+        public IActionResult Login([FromBody]string email, [FromBody]string password)
+        {
+             // _userAppService.Login(email, password);
+
+            return Response();
+        }
     }
 }
