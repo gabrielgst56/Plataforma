@@ -23,13 +23,14 @@ export class LoginPageComponent {
     )
       .subscribe(
         r => {
-          if (r.token) {
-            this.customer.setToken(r.token);
+          debugger;
+          if (r.success == true) {
             this.router.navigateByUrl('/dashboard');
           }
         },
         r => {
-          alert(r.error.error);
+          debugger;
+          alert(r.error.errors[0]);
         });
   }
 

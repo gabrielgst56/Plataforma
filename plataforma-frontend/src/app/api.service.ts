@@ -13,7 +13,7 @@ export class ApiService {
   }
 
   login(email: string, password: string): Observable<LoginResultModel>{
-    return this.http.post<LoginResultModel>('https://localhost:5001/api/login', {
+    return this.http.post<LoginResultModel>('https://localhost:5001/api/user/login', {
       email: email,
       password: password
     });

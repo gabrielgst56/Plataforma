@@ -11,5 +11,6 @@ namespace IFSP.Plataforma.Application.Interfaces
         UserViewModel GetById(Guid id);
         void Update(UserViewModel userViewModel);
         void Remove(Guid id);
+        bool Login(UserViewModel user);
     }
 }

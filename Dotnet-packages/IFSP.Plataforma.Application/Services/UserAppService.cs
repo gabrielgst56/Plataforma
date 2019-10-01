@@ -6,7 +6,9 @@ using IFSP.Plataforma.Application.Interfaces;
 using IFSP.Plataforma.Application.ViewModels;
 using IFSP.Plataforma.Domain.Commands.User;
 using IFSP.Plataforma.Domain.Core.Bus;
+using IFSP.Plataforma.Domain.Core.Notifications;
 using IFSP.Plataforma.Domain.Interfaces;
+using MediatR;
 
 namespace IFSP.Plataforma.Application.Services
 {
@@ -15,13 +17,16 @@ namespace IFSP.Plataforma.Application.Services
         private readonly IMapper _mapper;
         private readonly IUserRepository _userRepository;
         private readonly IMediatorHandler Bus;
+        private readonly DomainNotificationHandler _notifications;
 
         public UserAppService(IMapper mapper,
                                   IUserRepository userRepository,
-                                  IMediatorHandler bus)
+                                  IMediatorHandler bus,
+                                  INotificationHandler<DomainNotification> notifications)
         {
             _mapper = mapper;
             _userRepository = userRepository;
+            _notifications = (DomainNotificationHandler)notifications;
             Bus = bus;
         }
 
@@ -51,6 +56,18 @@ namespace IFSP.Plataforma.Application.Services
         {
             var removeCommand = new RemoveUserCommand(id);
             Bus.SendCommand(removeCommand);
+        }
+
+        public bool Login(UserViewModel user)
+        {
+            var entity = _userRepository.GetByEmail(user.Email);
+
+            if(entity != null)
+                return entity.Password == user.Password;
+
+            Bus.RaiseEvent(new DomainNotification("Commit", "Incorrect email."));
+
+            return false;
         }
 
         public void Dispose()
