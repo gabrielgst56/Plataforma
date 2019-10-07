@@ -1,6 +1,7 @@
 ﻿using IFSP.Plataforma.Application.Interfaces;
 using IFSP.Plataforma.Application.Services;
 using IFSP.Plataforma.Domain.CommandHandler;
+using IFSP.Plataforma.Domain.Commands.Chatbot;
 using IFSP.Plataforma.Domain.Commands.User;
 using IFSP.Plataforma.Domain.Core.Bus;
 using IFSP.Plataforma.Domain.Core.Notifications;
@@ -41,6 +42,9 @@ namespace IFSP.Plataforma.Infra.CrossCutting.IoC
             services.AddScoped<IRequestHandler<AddUserCommand, bool>, UserCommandHandler>();
             services.AddScoped<IRequestHandler<UpdateUserCommand, bool>, UserCommandHandler>();
             services.AddScoped<IRequestHandler<RemoveUserCommand, bool>, UserCommandHandler>();
+            services.AddScoped<IRequestHandler<AddChatbotCommand, bool>, ChatbotCommandHandler>();
+            services.AddScoped<IRequestHandler<UpdateChatbotCommand, bool>, ChatbotCommandHandler>();
+            services.AddScoped<IRequestHandler<RemoveChatbotCommand, bool>, ChatbotCommandHandler>();
 
             // Infra - Data
             services.AddScoped<IUserRepository, UserRepository>();

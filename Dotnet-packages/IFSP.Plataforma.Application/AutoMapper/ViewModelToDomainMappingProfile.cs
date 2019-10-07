@@ -17,8 +17,14 @@ namespace IFSP.Plataforma.Application.AutoMapper
                 .ConstructUsing(c => new AddUserCommand(c.Name, c.Email, c.Password, c.BirthDate));
             CreateMap<UserViewModel, UpdateUserCommand>()
                 .ConstructUsing(c => new UpdateUserCommand(c.Id, c.Name, c.Email, c.Password, c.BirthDate));
+            CreateMap<Dialogue, Dialogue>();
+            CreateMap<Dialogue, DialogueViewModel>().ReverseMap();
+            CreateMap<Chatbot, Chatbot>();
+            CreateMap<Chatbot, ChatbotViewModel>().ReverseMap();
+            CreateMap<User, User>();
+            CreateMap<User, UserViewModel>().ReverseMap();
             CreateMap<ChatbotViewModel, AddChatbotCommand>()
-                .ConstructUsing(c => new AddChatbotCommand(c.Name, c.Description, c.DiscordExported, c.MessengerExported,
+                .ConstructUsing(c => new AddChatbotCommand(c.Id, c.Name, c.Description, c.DiscordExported, c.MessengerExported,
                 c.DiscordBotSecret, _mapper.Map<List<Dialogue>>(c.Dialogues), _mapper.Map<User>(c.User), c.CreatedDate));
             CreateMap<UserViewModel, UpdateUserCommand>()
                 .ConstructUsing(c => new UpdateUserCommand(c.Id, c.Name, c.Email, c.Password, c.BirthDate));

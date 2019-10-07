@@ -8,6 +8,26 @@ CREATE TABLE "User"(
    BirthDate TIMESTAMP NOT NULL
 );
 
-INSERT INTO public."User"(
+INSERT INTO "User"(
 	id, name, password, email, birthdate)
 	VALUES ('72eb138b-ffc4-4482-98e1-f971743200cf', 'Gabriel Augusto', '123456', 'gabrielgst56@hotmail.com', NOW());
+
+CREATE TABLE "Chatbot"(
+   Id UUID PRIMARY KEY,
+   Name VARCHAR (20) NOT NULL,
+   Description VARCHAR (200) NOT NULL,
+   DiscordExported BOOLEAN NOT NULL,
+   MessengerExported BOOLEAN NOT NULL,
+   DiscordBotSecret VARCHAR(100) NOT NULL,
+   UserId UUID REFERENCES "User"(Id),
+   CreatedDate TIMESTAMP NOT NULL
+);
+
+CREATE TABLE "Dialogue"(
+   Id UUID PRIMARY KEY,
+   UserInput VARCHAR (50) NOT NULL,
+   ChatbotOutput VARCHAR (50) NOT NULL,
+   FatherId UUID NOT NULL References "Dialogue"(Id),
+   ChatbotId UUID NOT NULL References "Chatbot"(Id)
+);
+	

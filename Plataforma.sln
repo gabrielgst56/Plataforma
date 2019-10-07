@@ -30,6 +30,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{66DB
 		Create tables.sql = Create tables.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requests Postman", "Requests Postman", "{2AE63CD7-CA16-4376-8E3E-38265D887605}"
+	ProjectSection(SolutionItems) = preProject
+		Requisições.txt = Requisições.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,6 +89,7 @@ Global
 		{A13542C6-53B2-4A48-8430-E6A448F1E83E} = {6B8A5F94-D466-4052-8DBD-6B8A3A33BE69}
 		{7865CE7D-7414-4B08-A500-3E72D391B083} = {6B8A5F94-D466-4052-8DBD-6B8A3A33BE69}
 		{66DB89A6-E86D-4147-9A9A-00846E4A61FB} = {4645777A-9CA3-4ED3-A29C-8C3B7FBCF362}
+		{2AE63CD7-CA16-4376-8E3E-38265D887605} = {4645777A-9CA3-4ED3-A29C-8C3B7FBCF362}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E616F88B-BC3E-4B66-A91B-E49AB0A2F566}

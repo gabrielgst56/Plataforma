@@ -25,6 +25,8 @@ namespace IFSP.Plataforma.Domain.Entities
 
         public List<Dialogue> Childrens { get; set; }
 
+        public Guid? FatherId { get; set; }
+
         public Guid? ChatbotId { get; set; }
         public Chatbot Chatbot { get; set; }
     }

@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "499b252d-56a4-4169-adde-730e135856ae",
+		"name": "Intermediate2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "WithdrawById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44328/api/employee/withdraw/a3c26e43-ff7a-42eb-ac8a-795159ec432a?authority=localhost:44328&pragma=no-cache&cache-control=no-cache&upgrade-insecure-requests=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44328",
+					"path": [
+						"api",
+						"employee",
+						"withdraw",
+						"a3c26e43-ff7a-42eb-ac8a-795159ec432a"
+					],
+					"query": [
+						{
+							"key": "authority",
+							"value": "localhost:44328"
+						},
+						{
+							"key": "pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "cache-control",
+							"value": "no-cache"
+						},
+						{
+							"key": "upgrade-insecure-requests",
+							"value": "1"
+						}
+					]
+				},
+				"description": "Sacar dinheiro da conta pelo ID."
+			},
+			"response": []
+		},
+		{
+			"name": "PostChatbot",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Id\": \"10320fde-bf5f-42f6-b243-d902ab415a7f\",\r\n  \"Name\": \"Pizzaria Romario\",\r\n  \"Description\": \"Chatbot criado a fins de atendimento automático para a pizzaria Romario\",\r\n  \"DiscordExported\": false,\r\n  \"MessengerExported\": false,\r\n  \"DiscordBotSecret\": \"\",\r\n  \"Dialogues\": [\r\n    {\r\n      \"Id\": \"0e319a26-c90e-44e6-85de-2cdcf4e9b01c\",\r\n      \"UserInput\": \"Ola\",\r\n      \"ChatbotOutput\": \"Olá, gostaria de solicitar uma pizza? Digite 1\",\r\n      \"Childrens\": [\r\n        {\r\n          \"Id\": \"1dfc2876-ca42-4122-a7b7-d97949953692\",\r\n          \"UserInput\": \"1\",\r\n          \"ChatbotOutput\": \"Por favor, informe o endereço, sabor e tamanho.\",\r\n          \"Chatbot\": null\r\n        }\r\n      ],\r\n      \"Chatbot\": null\r\n    }\r\n  ],\r\n  \"User\": null,\r\n  \"CreatedDate\": \"2019-09-30 22:13:54.015848\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/chatbot/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"chatbot",
+						""
+					]
+				},
+				"description": "Retorna todos os funcionários."
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

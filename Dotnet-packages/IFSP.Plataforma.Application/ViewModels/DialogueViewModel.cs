@@ -27,5 +27,7 @@ namespace IFSP.Plataforma.Application.ViewModels
         [DisplayName("Dialogue Childrens")]
         public List<DialogueViewModel> Childrens { get; set; }
 
+        public ChatbotViewModel Chatbot { get; set; }
+
     }
 }

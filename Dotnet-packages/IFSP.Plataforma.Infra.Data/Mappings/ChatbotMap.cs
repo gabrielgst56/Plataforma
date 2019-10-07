@@ -22,6 +22,14 @@ namespace IFSP.Plataforma.Infra.Data.Mappings
 
             builder.Property(x => x.MessengerExported)
                 .HasDefaultValue(false);
+
+            builder.Property(x => x.DiscordBotSecret)
+                .HasDefaultValue("");
+
+            builder.Property(x => x.UserId);
+
+            builder.Property(x => x.CreatedDate);
+
         }
     }
 }

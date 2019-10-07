@@ -21,8 +21,8 @@ namespace IFSP.Plataforma.Domain.Commands.Chatbot
 
         public List<Dialogue> Dialogues { get; protected set; }
 
-        public IFSP.Plataforma.Domain.Entities.User User { get; protected set; }
+        public Entities.User User { get; protected set; }
 
-        public DateTime CreatedDate { get; set; }
+        public DateTime? CreatedDate { get; set; }
     }
 }

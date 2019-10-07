@@ -41,5 +41,16 @@ namespace IFSP.Plataforma.Infra.Data.Context
             // define the database to use
             optionsBuilder.UseNpgsql(config.GetConnectionString("BasePlataforma"));
         }
+
+        public string GetConnectionString()
+        {
+            var config = new ConfigurationBuilder()
+                .SetBasePath(_env.ContentRootPath)
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            // define the database to use
+            return config.GetConnectionString("BasePlataforma");
+        }
     }
 }

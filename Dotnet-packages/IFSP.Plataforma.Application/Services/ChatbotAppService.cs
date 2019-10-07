@@ -6,6 +6,7 @@ using IFSP.Plataforma.Application.Interfaces;
 using IFSP.Plataforma.Application.ViewModels;
 using IFSP.Plataforma.Domain.Commands.Chatbot;
 using IFSP.Plataforma.Domain.Core.Bus;
+using IFSP.Plataforma.Domain.Entities;
 using IFSP.Plataforma.Domain.Interfaces;
 
 namespace IFSP.Plataforma.Application.Services
@@ -37,7 +38,13 @@ namespace IFSP.Plataforma.Application.Services
 
         public void Add(ChatbotViewModel chatbotViewModel)
         {
-            var addCommand = _mapper.Map<AddChatbotCommand>(chatbotViewModel);
+            var addCommand = new AddChatbotCommand(chatbotViewModel.Id, chatbotViewModel.Name,
+                chatbotViewModel.Description, chatbotViewModel.DiscordExported, chatbotViewModel.MessengerExported,
+                chatbotViewModel.DiscordBotSecret, _mapper.Map<List<Dialogue>>(chatbotViewModel.Dialogues),
+                _mapper.Map<User>(chatbotViewModel.User), chatbotViewModel.CreatedDate);
+
+
+            //var addCommand = _mapper.Map<AddChatbotCommand>(chatbotViewModel);
             Bus.SendCommand(addCommand);
         }
 

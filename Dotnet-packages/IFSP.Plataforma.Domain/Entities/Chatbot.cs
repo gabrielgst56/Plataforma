@@ -7,7 +7,7 @@ namespace IFSP.Plataforma.Domain.Entities
     public class Chatbot : Entity
     {
         public Chatbot(Guid id, string name, string description, bool discordExported, bool messengerExported
-            , string discordBotSecret, List<Dialogue> dialogues, User user, DateTime createdDate)
+            , string discordBotSecret, List<Dialogue> dialogues, User user, DateTime? createdDate)
         {
             Id = id;
             Name = name;
@@ -18,6 +18,20 @@ namespace IFSP.Plataforma.Domain.Entities
             Dialogues = dialogues;
             User = user;
             UserId = user?.Id;
+            CreatedDate = createdDate;
+        }
+
+        public Chatbot(Guid id, string name, string description, bool discordExported, bool messengerExported
+            , string discordBotSecret, DateTime? createdDate)
+        {
+            Id = id;
+            Name = name;
+            Description = description;
+            DiscordExported = discordExported;
+            MessengerExported = messengerExported;
+            DiscordBotSecret = discordBotSecret;
+            User = null;
+            UserId = null;
             CreatedDate = createdDate;
         }
 
@@ -39,6 +53,6 @@ namespace IFSP.Plataforma.Domain.Entities
         public Guid? UserId { get; set; }
         public User User { get; set; }
 
-        public DateTime CreatedDate { get; set; }
+        public DateTime? CreatedDate { get; set; }
     }
 }
