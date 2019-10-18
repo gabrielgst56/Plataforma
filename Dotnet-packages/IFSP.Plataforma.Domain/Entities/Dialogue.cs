@@ -28,6 +28,9 @@ namespace IFSP.Plataforma.Domain.Entities
         public Guid? FatherId { get; set; }
 
         public Guid? ChatbotId { get; set; }
+
         public Chatbot Chatbot { get; set; }
+
+        public bool IsLastChildren { get; set; }
     }
 }

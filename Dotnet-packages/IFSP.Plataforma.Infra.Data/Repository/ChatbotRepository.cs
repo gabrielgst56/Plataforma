@@ -58,14 +58,20 @@ namespace IFSP.Plataforma.Infra.Data.Repository
 
                         var a = fatherId == null ? "NULL" : $"'{fatherId.ToString()}'";
 
+                        if (obj.Childrens.Count == 0)
+                        {
+                            obj.IsLastChildren = true;
+                        }
+
                         string cmdInserir = "INSERT INTO \"Dialogue\" (id, userinput, chatbotoutput, fatherid," +
-                            $"chatbotid) VALUES('{obj.Id.ToString()}','{obj.UserInput}','{obj.ChatbotOutput}'" +
-                            $",{a}, '{obj.ChatbotId.ToString()}')";
+                            $"chatbotid, islastchildren) VALUES('{obj.Id.ToString()}','{obj.UserInput}','{obj.ChatbotOutput}'" +
+                            $",{a}, '{obj.ChatbotId.ToString()}', {obj.IsLastChildren.ToString()})";
 
                         using (NpgsqlCommand pgsqlcommand = new NpgsqlCommand(cmdInserir, pgsqlConnection))
                         {
                             pgsqlcommand.ExecuteNonQuery();
                         }
+
 
                         AdicionarDialogues(obj.Childrens, id, obj.Id);
                     }

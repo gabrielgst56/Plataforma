@@ -26,8 +26,9 @@ CREATE TABLE "Chatbot"(
 CREATE TABLE "Dialogue"(
    Id UUID PRIMARY KEY,
    UserInput VARCHAR (50) NOT NULL,
-   ChatbotOutput VARCHAR (50) NOT NULL,
-   FatherId UUID NOT NULL References "Dialogue"(Id),
-   ChatbotId UUID NOT NULL References "Chatbot"(Id)
+   ChatbotOutput VARCHAR (200) NOT NULL,
+   FatherId UUID References "Dialogue"(Id),
+   ChatbotId UUID NOT NULL References "Chatbot"(Id),
+   IsLastChildren BOOLEAN 
 );
 	

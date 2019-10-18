@@ -1,0 +1,18 @@
+{
+  "name": "chatbot-node",
+  "version": "1.0.0",
+  "description": "Node will carry a chatbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "express": "^4.17.1",
+    "nodemailer": "^6.3.1",
+    "pg": "^7.12.1",
+    "string-similarity": "^3.0.0"
+  }
+}

@@ -20,7 +20,7 @@ namespace IFSP.Plataforma.Application.ViewModels
 
         [Required(ErrorMessage = "The Chatbot Output is Required")]
         [MinLength(1)]
-        [MaxLength(50)]
+        [MaxLength(200)]
         [DisplayName("Chatbot Output")]
         public string ChatbotOutput { get; set; }
 
